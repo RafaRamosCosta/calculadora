@@ -28,10 +28,17 @@ body {
     color: #eee;
 }
 
-.container button:focus, button:hover{
+.container > button:hover{
     background-color: #eee;
     color: #111;
 }
+
+.container > button:focus{
+    background-color: #eee;
+    color: #111;
+}
+
+
 
 .container > .operator{
     background: #4d32c4;
